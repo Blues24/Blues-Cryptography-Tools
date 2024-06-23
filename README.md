@@ -93,11 +93,11 @@ Example
 ``` sh
 
 # Encrypt a file using Fernet
-python file_encryption_tool.py
+python bluescryptV2.py
 # Choose option 1, then 1 (Fernet), and provide the file path.
 
 # Decrypt a file using Fernet
-python file_encryption_tool.py
+python bluescryptV2.py
 # Choose option 2, then 1 (Fernet), and provide the file path.
 ```
 Contributing
