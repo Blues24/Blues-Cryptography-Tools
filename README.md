@@ -6,9 +6,9 @@ This is a Python-based tool for encrypting and decrypting files using various al
 
 ## Features
 
-- **Encrypt and Decrypt Files**: Encrypt or decrypt any file using Fernet, AES, or RSA algorithms.
-- **Key Generation**: Generate keys for Fernet and RSA encryption/decryption.
-- **Password-Based Key Derivation**: Use a password to derive a key for AES encryption/decryption.
+- **Encrypt and Decrypt Files**: Encrypt or decrypt any file using  AES, and RSA algorithms.
+- **Key Generation**: Generate keys for AES and RSA encryption/decryption.
+
 
 ## Installation
 
@@ -22,9 +22,16 @@ This is a Python-based tool for encrypting and decrypting files using various al
 
 2. Install the required Python packages:
     ```sh
-    pip install cryptography
+    pip install -r requirements.txt
     ```
 
 ## Usage
 ```sh
-python bluescryptV2.py
+python main.py
+or
+python3 main.py
+
+#To generate the keys use this command
+python keygen.py
+or
+python3 keygen.py
