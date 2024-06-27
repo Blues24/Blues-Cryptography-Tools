@@ -27,9 +27,7 @@ This is a Python-based tool for encrypting and decrypting files using various al
 
 ## Usage
 ```sh
-python main.py
-or
-python3 main.py
+python bluescryptV2.py
 
 #To generate the keys use this command
 python keygen.py
